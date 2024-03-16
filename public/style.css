@@ -104,7 +104,7 @@ nav ul {
 }
 
 nav ul li {
-   margin: 0 15px;
+   margin: 0 20px;
 }
 
 section {
@@ -118,6 +118,7 @@ section {
    align-items: center;
    flex-direction: column; 
    background-color: cornflowerblue;
+   text-align: center;
 }
 
 #home h1 {
@@ -127,9 +128,10 @@ section {
 }
 
 #home p {
-   font-size: 1.5em;
-   font-weight: 300;
-   color: #fff;
+  width: 40%;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #fff;
 }
 
 #home a {
@@ -142,4 +144,12 @@ section {
    border: none;
    border-radius: 5px;
    text-decoration: none;
+}
+
+#aboutme {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #fff;
 }
